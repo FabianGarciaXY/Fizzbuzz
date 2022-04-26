@@ -8,7 +8,7 @@ describe('Tests para la clase Reader', () => {
         expect(explorers).not.toBeUndefined()
     })
     test('2) Validando explorers sea un array de tamaño 15', () => {
-        expect(explorers.length).toBe(11)
+        expect(explorers.length).toBe(15)
     })
     
 })
