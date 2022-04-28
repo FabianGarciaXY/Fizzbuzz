@@ -32,18 +32,18 @@ describe("Test set para la clase FizzbuzzService", () => {
         expect(result).toBe(1);
     });
 
-    test('6) Test para validar el metodo applyValidationInNumber cuando se recibe un numero 3', () => {
+    test("6) Test para validar el metodo applyValidationInNumber cuando se recibe un numero 3", () => {
         const result = FizzbuzzService.applyValidationInNumber(3);
         expect(result).toBe("FIZZ");
-    })
+    });
 
-    test('7) Test para validar el metodo applyValidationInNumber cuando se recibe un numero 5', () => {
+    test("7) Test para validar el metodo applyValidationInNumber cuando se recibe un numero 5", () => {
         const result = FizzbuzzService.applyValidationInNumber(5);
         expect(result).toBe("BUZZ");
-    })
+    });
     
-    test('8) Test para validar el metodo applyValidationInNumber cuando se recibe un numero 15', () => {
+    test("8) Test para validar el metodo applyValidationInNumber cuando se recibe un numero 15", () => {
         const result = FizzbuzzService.applyValidationInNumber(15);
         expect(result).toBe("FIZZBUZZ");
-    })
+    });
 });

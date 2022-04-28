@@ -31,5 +31,5 @@ describe("Suite de tests para el controlador ExplorerController", () => {
 
         const value15 = ExplorerController.applyValidationInNumber(15);
         expect(value15).toBe("FIZZBUZZ");
-    })
+    });
 });
