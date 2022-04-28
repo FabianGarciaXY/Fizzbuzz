@@ -16,17 +16,28 @@ describe("Test set para la clase FizzbuzzService", () => {
         expect(result.trick).toBe("FIZZ");
     });
 
-    test("2) Test para validar que cuando el score de un explorer es divisible por 5,  retorne \"BUZZ\"", () => {
+    test("3) Test para validar que cuando el score de un explorer es divisible por 5,  retorne \"BUZZ\"", () => {
 
         const explorer5 = {name: "Explorer5", score: 5};
         const result = FizzbuzzService.applyValidationInExplorer(explorer5);
         expect(result.trick).toBe("BUZZ");
     });
 
-    test("2) Test para validar que cuando el score de un explorer es divisible entre 3 y 5,  retorne \"FIZZBUZZ\"", () => {
+    test("4) Test para validar que cuando el score de un explorer es divisible entre 3 y 5,  retorne \"FIZZBUZZ\"", () => {
 
         const explorer30 = {name: "Explorer30", score: 30};
         const result = FizzbuzzService.applyValidationInExplorer(explorer30);
         expect(result.trick).toBe("FIZZBUZZ");
     });
+
+    test('5) Test para validar el metodo applyValidationInNumber', () => {
+
+        const value1 = 1;
+        const value3 = 3;
+        const value5 = 5;
+        const value15 = 15;
+
+        const result = FizzbuzzService.applyValidationInNumber(value1);
+        expect(result).toBe(1);
+    })
 });
