@@ -13,6 +13,7 @@ Para esta practica se tomo un proyecto ya comenzado con los siguientes requerimi
   * Eslint
   * Express
   * telegram-bot-api
+  * dotenv
 
 ## Resumen:
   * Se crearon tres clases: Reader, ExplorerService usando POO, FizzbuzzService para modularizar el proyecto y este más optimizado.
