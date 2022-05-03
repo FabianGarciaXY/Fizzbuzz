@@ -3,17 +3,18 @@
 
 Para esta practica se tomo un proyecto ya comenzado con los siguientes requerimientos:
 
-Requerimientos:
+## Requerimientos:
 
     Refactorizar el script legado y rehacerlo con mucho cuidado ya que es información muy sensible.
     Crea un API para usar la funcionalidad anterior:
 
-Dependencias:
+## Dependencias:
   * Jest
   * Eslint
   * Express
+  * telegram-bot-api
 
-Resumen:
+## Resumen:
   * Se crearon tres clases: Reader, ExplorerService usando POO, FizzbuzzService para modularizar el proyecto y este más optimizado.
 
 
@@ -36,5 +37,6 @@ classDiagram
     class FizzbuzzService
     FizzbuzzService : +applyValidationInExplorer(explorers, mission)
 ```
-Github Actions y Linter
+## Github Actions y Linter
+
 Como punto final se uso github actions para automatizar la ejecucion de pruebas en cada push y se uso linter para la correccion de estilos y limpieza de codigo.
