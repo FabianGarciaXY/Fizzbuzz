@@ -10,7 +10,7 @@ describe("Suite de tests para el controlador ExplorerController", () => {
     test("Validando el metodo estatico static getExplorersUsernamesByMission", () => {
         const result = ExplorerController.getExplorersUsernamesByMission("node");
         expect(result).not.toBeUndefined();
-        expect(result.length).toBe(10);
+        expect(typeof result).toBe('string');
     });
 
     test("Validando getExplorersAmonutByMission return 10 para node", () => {
